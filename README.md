@@ -2,7 +2,7 @@
 
 Chess application with a built-in **aggressive, human-style engine** (~2250 ELO), 3D board view, tournament mode, and more.
 
-**⬇ [Download Latest Release](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.3/Ferz_SFX.exe)**
+**⬇ [Download Latest Release](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.4/Ferz_SFX.exe)**
 
 **🌐 [Website](https://nkralev76-hue.github.io/ferz-chess/)**
 
@@ -47,12 +47,17 @@ Whether you're training for tournament play or just want a challenging opponent 
 
 ## How to Install
 
-1. Download [`Ferz_SFX.exe`](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.3/Ferz_SFX.exe) from the [Releases](https://github.com/nkralev76-hue/ferz-chess/releases) page
+1. Download [`Ferz_SFX.exe`](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.4/Ferz_SFX.exe) from the [Releases](https://github.com/nkralev76-hue/ferz-chess/releases) page
 2. Run the self-extracting archive
 3. Choose an extraction folder (e.g. `C:\Ferz`)
 4. Launch `Ferz.exe` — no installation required
 
 ## Changelog
+
+### v1.0.4 (August 21, 2026)
+- Default 3D pieces changed to plastic style on first toggle
+- Improved stop responsiveness — UI no longer freezes when stopping parallel/tournament games
+- Added "Stopping engines..." status message in the status bar
 
 ### v1.0.3 (August 20, 2026)
 - Optimized SFX archive size (71 MB down from 146 MB)
