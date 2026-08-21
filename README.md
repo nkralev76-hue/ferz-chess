@@ -32,6 +32,7 @@ Whether you're training for tournament play or just want a challenging opponent 
 - **PGN Database & Explorer** — Built-in PGN database with game explorer, move-by-move statistics, import/export.
 - **Computer Tournaments** — Round-robin and knockout tournaments with real-time statistics and detailed summaries.
 - **Game Analysis** — Evaluation graphs, per-move eval bars, and detailed move commentary.
+- **Full Console Control** — Built-in console (`Ctrl+` `) with 40+ commands: game control, engine management, book/database, UI tweaks, screenshots, raw UCI forwarding. TAB autocomplete, command history, session log.
 - **Chess960 (Fischer Random)** — Randomized starting positions for more variety.
 - **Opening Books & Tablebases** — Support for opening books and Syzygy tablebase probing (local files + online lookup).
 
