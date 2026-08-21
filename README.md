@@ -22,7 +22,6 @@ Whether you're training for tournament play or just want a challenging opponent 
 | **Style** | Aggressive / Human-like |
 | **Approximate ELO** | ~2250 |
 | **Evaluation** | Handcrafted (HCE) |
-| **Endgame** | Syzygy Tablebases |
 | **Protocol** | UCI |
 
 ## Features
@@ -34,7 +33,7 @@ Whether you're training for tournament play or just want a challenging opponent 
 - **Computer Tournaments** — Round-robin and knockout tournaments with real-time statistics and detailed summaries.
 - **Game Analysis** — Evaluation graphs, per-move eval bars, and detailed move commentary.
 - **Chess960 (Fischer Random)** — Randomized starting positions for more variety.
-- **Opening Books & Tablebases** — Support for opening books and Syzygy endgame tablebases.
+- **Opening Books & Tablebases** — Support for opening books and Syzygy tablebase probing (local files + online lookup).
 
 ## System Requirements
 
@@ -74,7 +73,7 @@ Whether you're training for tournament play or just want a challenging opponent 
 - 2D board with dark mode
 - PGN database and explorer
 - UCI engine support
-- Opening book + Syzygy Tablebases
+- Opening book + tablebase support
 - Chess960 (Fischer Random)
 - Qt6 Fusion UI
 
