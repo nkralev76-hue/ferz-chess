@@ -392,13 +392,17 @@
         document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
     })();
 
-    // Download counter from GitHub Releases API
-    fetch('https://api.github.com/repos/nkralev76-hue/ferz-chess/releases/latest')
+    // Download counter — sum across ALL releases for accurate count
+    fetch('https://api.github.com/repos/nkralev76-hue/ferz-chess/releases')
         .then(function(r){ return r.json(); })
         .then(function(data){
             var count = 0;
-            if (data.assets) {
-                data.assets.forEach(function(a){ count += a.download_count || 0; });
+            if (Array.isArray(data)) {
+                data.forEach(function(rel){
+                    if (rel.assets) {
+                        rel.assets.forEach(function(a){ count += a.download_count || 0; });
+                    }
+                });
             }
             document.getElementById('dlCount').textContent =
                 count.toLocaleString() + ' download' + (count !== 1 ? 's' : '');
