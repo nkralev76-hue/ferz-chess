@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nkralev76-hue.github.io/ferz-chess/sitemap.xml
