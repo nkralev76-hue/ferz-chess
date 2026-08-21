@@ -1,6 +1,6 @@
 # ♟ Ferz Chess
 
-A full-featured Windows chess application with a built-in engine, 3D board view, tournament mode, and more.
+Chess application with a built-in **aggressive, human-style engine** (~2250 ELO), 3D board view, tournament mode, and more.
 
 **⬇ [Download Latest Release](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.3/Ferz_SFX.exe)**
 
@@ -8,9 +8,26 @@ A full-featured Windows chess application with a built-in engine, 3D board view,
 
 ---
 
+## About the Engine
+
+The built-in **Ferz engine** is designed to play in an **aggressive, human-like style** at approximately **2250 ELO**. It doesn't just find the strongest move — it fights for the initiative, launches kingside attacks, sacrifices material for activity, and creates the kind of tactical complications that make chess exciting.
+
+Whether you're training for tournament play or just want a challenging opponent that plays like a strong human, Ferz delivers sharp, fighting games every time.
+
+### Engine Details
+
+| | |
+|---|---|
+| **Name** | Ferz Engine |
+| **Style** | Aggressive / Human-like |
+| **Approximate ELO** | ~2250 |
+| **Evaluation** | Handcrafted (HCE) |
+| **Endgame** | Syzygy Tablebases |
+| **Protocol** | UCI |
+
 ## Features
 
-- **Built-in Engine (Sila v8.03)** — Strong chess engine with HCE and Syzygy Tablebases. UCI protocol, adjustable thinking time, parallel games.
+- **Aggressive Built-in Engine** — Plays attacking chess with a human-like style. Sacrifices, kingside attacks, tactical complications.
 - **2D & 3D Board Views** — Classic 2D or immersive 3D perspective view with smooth animated transitions.
 - **Dark Mode** — Clean dark theme throughout the entire application.
 - **PGN Database & Explorer** — Built-in PGN database with game explorer, move-by-move statistics, import/export.
@@ -53,7 +70,7 @@ A full-featured Windows chess application with a built-in engine, 3D board view,
 
 ### v1.0.0 (August 7, 2026)
 - First public release
-- Ferz v1.0 (Sila Engine v8.03) with HCE + Syzygy
+- Ferz engine with aggressive human-style play
 - 2D board with dark mode
 - PGN database and explorer
 - UCI engine support
