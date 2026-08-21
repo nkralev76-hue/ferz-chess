@@ -47,15 +47,16 @@ Whether you're training for tournament play or just want a challenging opponent 
 
 ## How to Install
 
-1. Download [`Ferz_SFX.exe`](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.3/Ferz_SFX.exe) from the [Releases](https://github.com/nkralev76-hue/ferz-chess/releases) page
+1. Download [`Ferz_SFX.exe`](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.4/Ferz_SFX.exe) from the [Releases](https://github.com/nkralev76-hue/ferz-chess/releases) page
 2. Run the self-extracting archive
 3. Choose an extraction folder (e.g. `C:\Ferz`)
 4. Launch `Ferz.exe` — no installation required
 
 ## Changelog
 
-### v1.0.3 (August 21, 2026)
-- Default 3D pieces changed to plastic style on first toggle
+### v1.0.4 (August 21, 2026)
+- 3D view now switches pieces to the 3D Staunton plastic set on first toggle
+- Dedicated 2D/3D piece-set settings — pick a set in each view independently
 - Improved stop responsiveness — UI no longer freezes when stopping parallel/tournament games
 - Added "Stopping engines..." status message in the status bar
 
