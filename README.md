@@ -2,7 +2,7 @@
 
 Chess application with a built-in **aggressive, human-style engine** (~2250 ELO), 3D board view, tournament mode, and more.
 
-**⬇ [Download Latest Release](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.5/Ferz_SFX.exe)**
+**⬇ [Download Latest Release](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.6/Ferz_SFX.exe)**
 
 **🌐 [Website](https://nkralev76-hue.github.io/ferz-chess/)**
 
@@ -47,12 +47,18 @@ Whether you're training for tournament play or just want a challenging opponent 
 
 ## How to Install
 
-1. Download [`Ferz_SFX.exe`](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.5/Ferz_SFX.exe) from the [Releases](https://github.com/nkralev76-hue/ferz-chess/releases) page
+1. Download [`Ferz_SFX.exe`](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.6/Ferz_SFX.exe) from the [Releases](https://github.com/nkralev76-hue/ferz-chess/releases) page
 2. Run the self-extracting archive
 3. Choose an extraction folder (e.g. `C:\Ferz`)
 4. Launch `Ferz.exe` — no installation required
 
 ## Changelog
+
+### v1.0.6 (August 22, 2026)
+- NEW: Analysis Report window — per-move evals with inaccuracy/mistake/blunder detection, opens automatically after whole-game analysis
+- Whole-game analysis now caches an eval for every move (regardless of engine color)
+- Analysis reliably stops when it finishes — pending engine searches can no longer restart after stop
+- Rich hover info on every analyzed move: White-perspective eval, depth and best line
 
 ### v1.0.5 (August 22, 2026)
 - Fixed engine best-move arrows missing in every color-swapped Engine vs Engine game
