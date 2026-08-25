@@ -143,7 +143,7 @@
     </header>
 
     <section class="center">
-        <a href="https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.6/Ferz_SFX.exe" class="download-btn" id="dlBtn">⬇ Download Ferz SFX</a>
+        <a href="https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.7/Ferz_SFX.exe" class="download-btn" id="dlBtn">⬇ Download Ferz SFX</a>
         <div class="download-info">Ferz_SFX.exe &middot; ~71 MB &middot; Windows 10/11 &middot; Self-extracting archive</div>
         <div class="download-counter" id="dlCounter">
             <span class="dl-icon">⬇</span>
@@ -292,6 +292,20 @@
 
     <section>
         <h2>Changelog</h2>
+
+        <div class="changelog-card">
+            <div class="changelog-header">
+                <span class="changelog-version">v1.0.7</span>
+                <span class="changelog-date">August 24, 2026</span>
+            </div>
+            <ul>
+                <li>NEW: Named tournaments (Arena-style) — give each tournament a name; its autosave and every game PGN are kept in a separate folder, so events never overwrite each other</li>
+                <li>Saved tournaments list — interrupted events can be resumed with one click, any number of them</li>
+                <li>Fixed: resign adjudication now judges each side only by its OWN engine's evals (Arena-style) — engines with scaled evals (e.g. Sila Dampener) are no longer adjudicated asymmetrically</li>
+                <li>NEW sounds: illegal move, low-time warning (≤10s), tournament game start — plus an always-visible 🔊/🔇 sound toggle in the status bar</li>
+                <li>Tournament schedule now shows the winner's name for every finished game</li>
+            </ul>
+        </div>
 
         <div class="changelog-card">
             <div class="changelog-header">
