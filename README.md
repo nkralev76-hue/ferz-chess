@@ -60,6 +60,7 @@ Whether you're training for tournament play or just want a challenging opponent 
 - Fixed: resign adjudication judges each side only by its OWN engine's evals (Arena-style)
 - NEW sounds: illegal move, low-time warning (≤10s), tournament game start + status-bar 🔊/🔇 toggle
 - Tournament schedule shows the winner's name for every finished game
+- Fixed: parallel-tournament panel labels follow the game on the board; parallel games option "Swap colors every second game" for fair matches
 
 ### v1.0.6 (August 22, 2026)
 - NEW: Analysis Report window — per-move evals with inaccuracy/mistake/blunder detection, opens automatically after whole-game analysis
