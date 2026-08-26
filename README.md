@@ -43,7 +43,7 @@ Whether you're training for tournament play or just want a challenging opponent 
 | OS | Windows 10 / 11 (64-bit) |
 | RAM | 2 GB |
 | Disk Space | ~150 MB after extraction |
-| Processor | x86-64 compatible |
+| Processor | x86-64 compatible (no AVX2 required) |
 
 ## How to Install
 
@@ -55,6 +55,7 @@ Whether you're training for tournament play or just want a challenging opponent 
 ## Changelog
 
 ### v1.0.8 (August 25, 2026)
+- HOTFIX: Bundled Ferz 1.0 engine rebuilt with portable-safe flags — runs on all x86-64 CPUs (no AVX2 required)
 - NEW: Adaptive sparring partner (Human vs Engine) — the engine matches its strength to YOUR level with a self-adjusting 0–10 ladder
 - Works with ANY engine: native UCI_Elo, weaker-move selection from MultiPV lines, or time + depth handicap
 - Sparring controls in the Engines menu and the console — never affects tournaments or parallel games
