@@ -2,7 +2,7 @@
 
 Chess application with a built-in **aggressive, human-style engine** (~2250 ELO), 3D board view, tournament mode, and more.
 
-**⬇ [Download Latest Release](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.7/Ferz_SFX.exe)**
+**⬇ [Download Latest Release](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.8/Ferz_SFX.exe)**
 
 **🌐 [Website](https://nkralev76-hue.github.io/ferz-chess/)**
 
@@ -47,12 +47,19 @@ Whether you're training for tournament play or just want a challenging opponent 
 
 ## How to Install
 
-1. Download [`Ferz_SFX.exe`](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.7/Ferz_SFX.exe) from the [Releases](https://github.com/nkralev76-hue/ferz-chess/releases) page
+1. Download [`Ferz_SFX.exe`](https://github.com/nkralev76-hue/ferz-chess/releases/download/v1.0.8/Ferz_SFX.exe) from the [Releases](https://github.com/nkralev76-hue/ferz-chess/releases) page
 2. Run the self-extracting archive
 3. Choose an extraction folder (e.g. `C:\Ferz`)
 4. Launch `Ferz.exe` — no installation required
 
 ## Changelog
+
+### v1.0.8 (August 25, 2026)
+- NEW: Adaptive sparring partner (Human vs Engine) — the engine matches its strength to YOUR level with a self-adjusting 0–10 ladder
+- Works with ANY engine: native UCI_Elo, weaker-move selection from MultiPV lines, or time + depth handicap
+- Sparring controls in the Engines menu and the console — never affects tournaments or parallel games
+- Fixed: panel labels when reviewing finished tournament games now show that game's players
+- Console: usage examples in help, missing autocomplete entries, unknown-command hint
 
 ### v1.0.7 (August 24, 2026)
 - NEW: Named tournaments (Arena-style) — each event gets its own folder for autosave and games; nothing is ever overwritten
