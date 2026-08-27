@@ -54,6 +54,19 @@ Whether you're training for tournament play or just want a challenging opponent 
 
 ## Changelog
 
+### v1.0.10 (August 27, 2026)
+- Fix: bottom **Load** button in Tournament Manager now correctly **resumes** the saved tournament (was only loading for viewing, then Start created a new tournament from scratch).
+- Now both Load paths (bottom bar and *Saved tournaments* in Settings) correctly restore progress and continue from the saved point.
+
+### v1.0.9 (August 26, 2026)
+- REWORKED adaptive sparring partner — a smooth, human-like strength gradient across all six tiers (Beginner → Master)
+- The opponent now weakens by choosing a **weaker REAL engine move**, never a random or time-cut move
+- Per-tier **cp-loss ceiling** — strong tiers (Expert/Master) can never drop a piece for free; weaker tiers may blunder naturally
+- Gaussian-weighted selection replaces the old fixed-rank pick, so strength changes gradually instead of in steps
+- Bundled Ferz engine reports **full-depth MultiPV** candidate lines (no more shallow/deceptive alternatives)
+- Works with ANY engine: native UCI_Elo, MultiPV weaker-move selection, or depth handicap — sparring never affects tournaments or parallel games
+- Console: `sparring on/off/level <0-5|name>` (beginner, casual, average, strong, expert, master)
+
 ### v1.0.8 (August 25, 2026)
 - HOTFIX: Bundled Ferz 1.0 engine rebuilt with portable-safe flags — runs on all x86-64 CPUs (no AVX2 required)
 - NEW: Adaptive sparring partner (Human vs Engine) — the engine matches its strength to YOUR level with a self-adjusting 0–10 ladder
