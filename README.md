@@ -54,6 +54,9 @@ Whether you're training for tournament play or just want a challenging opponent 
 
 ## Changelog
 
+### v1.0.13 (September 7, 2026)
+- Fix: Tournament preview board piece colors — small board in Tournament Manager showed white pieces as black and vice versa (inverted fill in `BoardWidget::buildUnicodeCache` for fallback Unicode pieces).
+
 ### v1.0.12 (September 7, 2026)
 - Fix: Pondering scope — now **only for local games** (Human vs Engine, local Engine vs Engine). Disabled for tournaments and parallel games to avoid high-concurrency crash (`illegal move` after 2-3 moves).
 
