@@ -54,6 +54,9 @@ Whether you're training for tournament play or just want a challenging opponent 
 
 ## Changelog
 
+### v1.0.12 (September 7, 2026)
+- Fix: Pondering scope — now **only for local games** (Human vs Engine, local Engine vs Engine). Disabled for tournaments and parallel games to avoid high-concurrency crash (`illegal move` after 2-3 moves).
+
 ### v1.0.11 (September 7, 2026)
 - Fix: **Pondering** (thinking on opponent's time) now actually works — `startPonder` / `ponderHit` were wired but never called, the `ponder` from `bestmove` was discarded and the *Pondering* checkbox was never read.
 - Now: after an engine's move the GUI starts its `startPonder` on the predicted reply while the opponent thinks; on the opponent's actual move it does `ponderHit` on a hit (keeps the search tree, continues from depth) or `stop` on a miss. No more idle time.
