@@ -295,6 +295,17 @@
 
         <div class="changelog-card">
             <div class="changelog-header">
+                <span class="changelog-version">v1.0.11</span>
+                <span class="changelog-date">September 7, 2026</span>
+            </div>
+            <ul>
+                <li>Fix: <strong>Pondering</strong> (thinking on opponent's time) now actually works — <code>startPonder</code> / <code>ponderHit</code> were wired but never called, the <code>ponder</code> from <code>bestmove</code> was discarded and the <em>Pondering</em> checkbox was never read.</li>
+                <li>Now: after an engine's move the GUI starts its <code>startPonder</code> on the predicted reply while the opponent thinks; on the opponent's actual move it does <code>ponderHit</code> on a hit (keeps the search tree, continues from depth) or <code>stop</code> on a miss. No more idle time.</li>
+            </ul>
+        </div>
+
+        <div class="changelog-card">
+            <div class="changelog-header">
                 <span class="changelog-version">v1.0.10</span>
                 <span class="changelog-date">August 27, 2026</span>
             </div>

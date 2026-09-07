@@ -54,6 +54,10 @@ Whether you're training for tournament play or just want a challenging opponent 
 
 ## Changelog
 
+### v1.0.11 (September 7, 2026)
+- Fix: **Pondering** (thinking on opponent's time) now actually works — `startPonder` / `ponderHit` were wired but never called, the `ponder` from `bestmove` was discarded and the *Pondering* checkbox was never read.
+- Now: after an engine's move the GUI starts its `startPonder` on the predicted reply while the opponent thinks; on the opponent's actual move it does `ponderHit` on a hit (keeps the search tree, continues from depth) or `stop` on a miss. No more idle time.
+
 ### v1.0.10 (August 27, 2026)
 - Fix: bottom **Load** button in Tournament Manager now correctly **resumes** the saved tournament (was only loading for viewing, then Start created a new tournament from scratch).
 - Now both Load paths (bottom bar and *Saved tournaments* in Settings) correctly restore progress and continue from the saved point.
