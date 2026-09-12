@@ -54,6 +54,9 @@ Whether you're training for tournament play or just want a challenging opponent 
 
 ## Changelog
 
+### v1.0.14 (September 12, 2026)
+- New: Tournament engine log — `tournament/<name>/engine.log` now logs every `go wtime/btime` with `fen` for high-concurrency time debugging (reported issue where one engine shows much less time after a few moves).
+
 ### v1.0.13 (September 7, 2026)
 - Fix: Tournament preview board piece colors — small board in Tournament Manager showed white pieces as black and vice versa (inverted fill in `BoardWidget::buildUnicodeCache` for fallback Unicode pieces).
 
